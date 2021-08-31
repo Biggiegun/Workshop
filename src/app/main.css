@@ -68,3 +68,24 @@ p{
 }
 
 
+#contenedor-img-product{
+    background-color:rgb(225, 225, 225); 
+    margin: 30px;
+    width: 550px;
+    margin-left: 350px;
+    display: flex;
+
+}
+
+.size-conteiner{
+   
+    border-radius: 100%;
+    width: 64px;
+    height: 64px;
+    border:solid 2px;
+    border-color:black;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
