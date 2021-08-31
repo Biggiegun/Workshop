@@ -24,7 +24,10 @@ footer{
 p{
     margin: 8px;
 }
-
+#img-container{
+    display: flex;
+    justify-content: center;
+}
 #btn-container{
     display:flex;
 
