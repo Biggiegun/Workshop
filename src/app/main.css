@@ -70,9 +70,9 @@ p{
 
 #contenedor-img-product{
     background-color:rgb(225, 225, 225); 
-    margin: 30px;
-    width: 550px;
-    margin-left: 350px;
+    margin: 15px;
+    width: 100%;
+    margin-left: 15px;
     display: flex;
 
 }
@@ -88,4 +88,8 @@ p{
     display: flex;
     justify-content: center;
     margin: 10px;
+}
+
+#tallas{
+    display: flex;
 }
