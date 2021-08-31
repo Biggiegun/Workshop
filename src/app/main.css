@@ -24,7 +24,14 @@ footer{
 p{
     margin: 8px;
 }
-
+#img-main{
+    margin-left: 95px;
+    margin-bottom: 10px;
+}
+#img-container{
+    display: flex;
+    justify-content: center;
+}
 #btn-container{
     display:flex;
 
@@ -52,6 +59,12 @@ p{
     justify-content: center;
     margin: 10px;
     
+}
+
+.img-1{
+    position: relative;
+    width: 25vw;
+    height: 50vh; 
 }
 
 
