@@ -3176,29 +3176,29 @@ eval("/**\n * Copyright (c) 2014-present, Facebook, Inc.\n *\n * This source cod
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _producto__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./producto */ \"./src/app/producto.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/app/style.css\");\n\n\n(0,_producto__WEBPACK_IMPORTED_MODULE_0__.default)();\n\n//# sourceURL=webpack://Workshop/./src/app/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _productos__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./productos */ \"./src/app/productos.js\");\n/* harmony import */ var _main_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./main.css */ \"./src/app/main.css\");\n //import './style.css';\n\n\n(0,_productos__WEBPACK_IMPORTED_MODULE_0__.default)();\n\n//# sourceURL=webpack://Workshop/./src/app/index.js?");
 
 /***/ }),
 
-/***/ "./src/app/producto.js":
-/*!*****************************!*\
-  !*** ./src/app/producto.js ***!
-  \*****************************/
+/***/ "./src/app/productos.js":
+/*!******************************!*\
+  !*** ./src/app/productos.js ***!
+  \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// code here\nvar Producto = function Producto() {\n  console.log(\"Hola Mundo!!\");\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Producto);\n\n//# sourceURL=webpack://Workshop/./src/app/producto.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// code here\nvar productos = function productos() {\n  console.log(\"Hola Mundo Geek!!\");\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (productos);\n\n//# sourceURL=webpack://Workshop/./src/app/productos.js?");
 
 /***/ }),
 
-/***/ "./src/app/style.css":
-/*!***************************!*\
-  !*** ./src/app/style.css ***!
-  \***************************/
+/***/ "./src/app/main.css":
+/*!**************************!*\
+  !*** ./src/app/main.css ***!
+  \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://Workshop/./src/app/style.css?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://Workshop/./src/app/main.css?");
 
 /***/ })
 

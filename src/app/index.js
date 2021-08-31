@@ -1,5 +1,5 @@
-import Producto from './producto';
-import './style.css';
+import productos from './productos';
+//import './style.css';
+import './main.css';
 
-
-Producto();
+productos();
